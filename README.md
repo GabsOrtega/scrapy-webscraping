@@ -1,24 +1,24 @@
-#COMO RODAR O PROJETO?
+<h2>COMO RODAR O PROJETO?</h2>
 
-1 - Instale o ambiente virytual com pip:
+<ol><li>Instale o ambiente virytual com pip:</li>
 
 pip install virtualenv
 
-2 - Crie um ambiente virtual na máquina:
+<li>Crie um ambiente virtual na máquina:</li>
 
 virtualenv venv
 
-3 - Entre no ambiente virtual:
+<li>Entre no ambiente virtual:</li>
 
 source venv/bin/activate (Linux ou MacOS)
 
 venv/Scripts/Activate (Windows)
 
-4 - Instale todas as dependências da aplicação:
+<li>Instale todas as dependências da aplicação:</li>
 
 pip install -r requirements.txt
 
-5 - Para rodar o spider e transformar os dados em um arquivo:
+<li>Para rodar o spider e transformar os dados em um arquivo:</li>
 
 scrapy crawl leiloes -O NOMEARQUIVO.extensao
 
@@ -27,3 +27,4 @@ Ex:
 scrapy crawl leiloes -O leiloes.json
 
 scrapy crawl leiloes -O leiloes.csv
+</ol>
