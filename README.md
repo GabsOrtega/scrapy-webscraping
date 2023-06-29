@@ -1,4 +1,4 @@
-<h2>COMO RODAR O PROJETO?</h2>
+<h2>COMO RODAR A APLICAÇÃO</h2>
 
 <ol><li>Instale o ambiente virtual com pip:</li>
 
