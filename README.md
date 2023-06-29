@@ -1,6 +1,6 @@
 <h2>COMO RODAR O PROJETO?</h2>
 
-<ol><li>Instale o ambiente virytual com pip:</li>
+<ol><li>Instale o ambiente virtual com pip:</li>
 
 pip install virtualenv
 
